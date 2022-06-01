@@ -19,6 +19,11 @@ header{
     padding: 10px;
 }
 
+.head-flex-container a{
+    padding: 10px;
+    margin-right: 5px;
+}
+
 .head-flex-item img{
     height: 30px;
 }
@@ -85,6 +90,7 @@ main{
     left: 0;
     bottom: 50px;
 }
+
 .img-container{
     position: relative;
 }
@@ -94,6 +100,7 @@ main{
     color: #fff;
     padding: 5px;
 }
+
 .sostenibilità{
     background-color: green;
     color: #fff;
@@ -103,6 +110,7 @@ main{
 .info{
     position: relative;
 }
+
 .sale{
     color: rgb(255, 0, 0);
     font-weight: bold;
@@ -117,10 +125,31 @@ main{
     cursor: pointer;
 }
 
+/* regole footer */
 
+footer{
+    width: 100%;
+    background-color: rgb(19, 17, 17);
+}
 
+.footer-flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.footer-flex-item{
+    color: #fff;
+    padding: 15px;
+}
 
+.footer-flex-item a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
 
-
-
+.footer-flex-item i{
+    margin-right: 5px;
+    margin-top: 5px;
+}
