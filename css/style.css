@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* regole dell'header */
 header{
     width: 100%;
     background-color: rgb(255, 102, 0);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
 }
 
 .head-flex-container{
@@ -20,8 +23,6 @@ header{
     height: 30px;
 }
 
-
-
 .head-flex-item a{
     color: #fff;
     text-decoration: none;
@@ -33,4 +34,93 @@ header{
     color: #fff;
     margin-right: 10px;
 }
+
+/* regole del main */
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.main-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+.main-flex-item{
+    margin-bottom: 20px;
+}
+
+.img-container img{
+    height: 500px;
+    width: 100%;
+}
+
+.img-container .second-image{
+    display: none;
+}
+
+.img-container:hover .second-image{
+    display: block;
+}
+
+.img-container:hover .first-image{
+    display: none;
+}
+
+.heart{
+    font-size: 30px;
+    background-color: #fff;
+    padding: 8px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.sale-info{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+.img-container{
+    position: relative;
+}
+
+.sale-info span:first-child{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+}
+.sostenibilità{
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+}
+
+.info{
+    position: relative;
+}
+.sale{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.prize{
+    text-decoration: line-through;
+    font-weight: bold;
+} 
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
